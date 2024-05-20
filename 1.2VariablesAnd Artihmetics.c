@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-  float fahr, celsius;
+  float fahr, celsius; // using flat thi time to be more precise
   int lower, upper, step;
 
   lower = 0;
