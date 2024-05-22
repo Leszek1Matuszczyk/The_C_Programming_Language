@@ -2,7 +2,9 @@
 
 int power(int Base, int Power);
 void main() {
-  printf("%d", power(2, 8));
+  int i;
+  for (i = 0; i < 10; i++)
+    printf("%d, %d,\t %d \n", i, power(2, i), power(3, i));
 }
 
 int power(int Base, int Power) {
